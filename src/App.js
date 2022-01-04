@@ -2,13 +2,15 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Main from './pages/Main'
 import Top from './components/Top'
+import Contacto from './components/Contacto';
+import About from './components/About';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
     return (
@@ -17,7 +19,17 @@ export default function App() {
                 <header>
                 <Top />     
                 </header>
-                <Main />  
+                <Switch>
+                    <Route exact path='/'> 
+                        <Main/>
+                    </Route>
+                    <Route exact path='/about'> 
+                        <About/>
+                    </Route>
+                    <Route exact path='/contact'>
+                        <Contacto />
+                    </Route>
+                </Switch> 
             </div>
         </Router>
     )

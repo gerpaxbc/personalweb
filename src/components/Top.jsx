@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
 import Row from 'react-bootstrap/Row'
@@ -25,7 +25,7 @@ export default function Top() {
                 </Col>
                 <Col sm>
                     <br />
-                    <a  className={styles.letraLink} href="/"> About</a>
+                    <a  className={styles.letraLink} href="/about"> About</a>
                 </Col>
                 <Col sm>
                 <br />
@@ -37,7 +37,7 @@ export default function Top() {
                 </Col>
                 <Col sm>
                     <br />
-                    <Button variant="outline-secondary">Contact</Button>{' '}
+                    <Button variant="outline-secondary" href="/contact">Contact</Button>{' '}
                 </Col>
             </Row>
             </Container>    
