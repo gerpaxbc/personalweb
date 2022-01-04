@@ -1,0 +1,15 @@
+.mainPage{
+    color: white;
+    height: 100vh;
+    background-color: black;
+}
+
+.imagen{
+    border-radius: 10px;   
+    background-color: azure;
+}
+
+.letraGrande{
+  font-size:5cm
+  
+}

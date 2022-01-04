@@ -1,0 +1,22 @@
+.TopPage{
+    color: cornsilk;
+    height: 8vh;
+    background-color:black
+}
+
+.letraLogo{
+    font-style: italic;
+    color: rgb(122, 9, 9);
+}
+
+.letraLink{
+    font-style: italic;
+    color: rgb(75, 71, 71);
+    text-decoration: none;
+}
+
+.letraSlogan{
+    font-style: italic;
+    color: rgb(75, 71, 71);
+    text-decoration: none;   
+}
